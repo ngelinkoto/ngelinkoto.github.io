@@ -1,13 +1,3 @@
----
-layout: default
-lang: fr
-title: Sources & crédits
-permalink: /sources/
----
-<div class="document container" markdown="1">
-
-<p class="eyebrow">DOCUMENTATION DU SITE / SITE DOCUMENTATION</p>
-
 # Sources & crédits
 
 Cette page indique l’origine des informations biographiques et scientifiques présentées sur ce site. Les sources en ligne ont été consultées le 28 septembre 2026. La liste de publications est une sélection, et non une bibliographie exhaustive.
@@ -55,5 +45,3 @@ Le [profil LinkedIn de Patience Ngelinkoto Mpia Bokango](https://cd.linkedin.com
 Portrait : CV fourni. Motifs et icônes : dessins vectoriels créés pour ce site. Les textes de présentation sont des synthèses éditoriales des sources ci-dessus, et non des citations de la chercheuse. Les titres d’articles restent dans leur langue de publication sur les deux versions du site.
 
 Typographie : Source Serif 4 pour les titres et Source Sans 3 pour le texte, créations Adobe distribuées sous licence SIL Open Font License. Les polices sont hébergées avec le site ; les licences sont conservées dans `assets/fonts/`.
-
-</div>

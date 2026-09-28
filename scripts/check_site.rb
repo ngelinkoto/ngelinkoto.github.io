@@ -33,13 +33,14 @@ pages.each do |file, doc|
   end
   doc.css("img").each { |img| errors << "Missing alt in #{file}" if img["alt"].nil? }
 end
-%w[index.html en/index.html cv/index.html en/cv/index.html sources/index.html 404.html sitemap.xml robots.txt].each do |path|
+%w[index.html en/index.html cv/index.html en/cv/index.html 404.html sitemap.xml robots.txt].each do |path|
   errors << "Missing #{path}" unless File.file?(File.join(root, path))
 end
 %w[index.html en/index.html].each do |path|
   errors << "Publication count incorrect: #{path}" unless pages[File.join(root, path)]&.css(".publication")&.size == 7
 end
 errors << "Private resources were published" if File.exist?(File.join(root, "resources"))
+errors << "Removed sources page was published" if File.exist?(File.join(root, "sources"))
 errors << "Source tooling was published" if File.exist?(File.join(root, "scripts"))
 abort errors.join("\n") unless errors.empty?
 puts "PASS: #{pages.size} HTML pages; local links, fragments, images, language pages, publications and source exclusions."

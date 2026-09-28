@@ -97,7 +97,8 @@ fr:
   contact_text: Vous pouvez m’écrire pour discuter d’un projet de recherche ou me poser une question sur mes travaux et mes enseignements.
   email_label: Écrire un courriel
   back_top: Retour en haut
-  sources: Sources & crédits
+  quick_links: Liens utiles
+  placeholder_link: adresse provisoire
   footer: Chimie, environnement et écotoxicologie.
   cv_title: Parcours académique
   cv_subtitle: Synthèse du CV du 23 octobre 2024, complétée par les fonctions actuelles à l’UPN et au CREE.
@@ -205,7 +206,8 @@ en:
   contact_text: You are welcome to email me about a research project or with questions about my work and teaching.
   email_label: Send an email
   back_top: Back to top
-  sources: Sources & credits
+  quick_links: Quick links
+  placeholder_link: placeholder address
   footer: Chemistry, environmental science and ecotoxicology.
   cv_title: Academic background
   cv_subtitle: A summary of the October 2024 CV, updated with her current roles at UPN and CREE.

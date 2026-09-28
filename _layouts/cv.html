@@ -18,5 +18,5 @@ layout: default
   <div class="course-list">{% for course in t.courses %}<article><span class="course-detail">{{ course.detail }}</span><h3>{{ course.school }}</h3><p>{{ course.subjects }}</p></article>{% endfor %}</div>
   <h2>{{ t.publications_title }}</h2>
   {% for pub in site.data.publications %}<article class="publication"><span class="publication-year">{{ pub.year }}</span><div><h3><a href="{{ pub.url }}">{{ pub.title | escape }}</a></h3><p>{{ pub.authors | replace: 'avec', '·' | escape }}.</p><p><em>{{ pub.journal | escape }}</em>, {{ pub.volume }}.</p></div></article>{% endfor %}
-  <p class="note">{{ t.cv_subtitle }} <a href="{{ '/sources/' | relative_url }}">{{ t.sources }}</a>.</p>
+  <p class="note">{{ t.cv_subtitle }}</p>
 </article>

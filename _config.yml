@@ -5,6 +5,10 @@ baseurl: ""
 lang: fr
 email: ngelipatience@gmail.com
 linkedin: https://cd.linkedin.com/in/patience-ngelinkoto-mpia-bokango-666b7784
+quick_links:
+  faculty: https://faculte.upnrdc.net/public/domains/14
+  cree: https://cree.example
+  upn: https://upn.ac.cd
 featured_video:
   id: fSDHNtbVYeA
   url: https://www.youtube.com/watch?v=fSDHNtbVYeA
