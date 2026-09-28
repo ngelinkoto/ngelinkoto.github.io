@@ -101,12 +101,10 @@ fr:
   placeholder_link: adresse provisoire
   footer: Chimie, environnement et écotoxicologie.
   cv_title: Parcours académique
-  cv_subtitle: Synthèse du CV du 23 octobre 2024, complétée par les fonctions actuelles à l’UPN et au CREE.
   print: Imprimer / enregistrer en PDF
   education: Formation & expertise
   education_text: Doctorat en chimie et environnement, spécialité écotoxicologie (la plus grande distinction) ; master en chimie et environnement ; licence en chimie.
   training: Formation complémentaire en gestion durable des eaux souterraines et adaptation au changement climatique, American University in Cairo, 7–27 septembre 2024.
-  source_note: Les fonctions actuelles à l’UPN et au CREE ont été confirmées pour la mise à jour du site. Les autres repères et enseignements sont issus du CV d’octobre 2024.
 en:
   home: Home
   nav: [About, Research, Publications, Teaching]
@@ -210,9 +208,7 @@ en:
   placeholder_link: placeholder address
   footer: Chemistry, environmental science and ecotoxicology.
   cv_title: Academic background
-  cv_subtitle: A summary of the October 2024 CV, updated with her current roles at UPN and CREE.
   print: Print / save as PDF
   education: Education & expertise
   education_text: Doctorate in chemistry and environmental science, specialising in ecotoxicology (highest distinction); master’s in chemistry and environmental science; degree in chemistry.
   training: Further training in sustainable groundwater resource management and climate change adaptation, American University in Cairo, 7–27 September 2024.
-  source_note: Her current roles at UPN and CREE were confirmed for this website update. Other career milestones and teaching details come from the October 2024 CV.

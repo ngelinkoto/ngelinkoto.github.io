@@ -8,15 +8,14 @@ layout: default
   <p>{{ t.role }} · {{ t.department }}<br>{{ t.institution }}, Kinshasa</p>
   <p class="cv-appointment">{{ t.current_role }} · UPN</p>
   <p class="cv-appointment">{{ t.research_role }}<br>{{ t.research_centre }}</p>
-  <p class="cv-contact"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  <p class="cv-contact">{{ site.email }}</p>
   <p class="cv-contact"><a href="{{ site.linkedin }}">{{ t.connect }}</a></p>
   <button class="button button-dark" data-print hidden>{{ t.print }}</button>
   <h2>{{ t.education }}</h2><p>{{ t.education_text }}</p><p>{{ t.training }}</p>
-  <h2>{{ t.career }}</h2><p class="note">{{ t.source_note }}</p>
+  <h2>{{ t.career }}</h2>
   <div class="career">{% for item in t.career_items %}<div class="career-item"><span class="career-date">{{ item.date }}</span><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></div>{% endfor %}</div>
   <h2>{{ t.teaching_label | downcase | capitalize }}</h2>
   <div class="course-list">{% for course in t.courses %}<article><span class="course-detail">{{ course.detail }}</span><h3>{{ course.school }}</h3><p>{{ course.subjects }}</p></article>{% endfor %}</div>
   <h2>{{ t.publications_title }}</h2>
   {% for pub in site.data.publications %}<article class="publication"><span class="publication-year">{{ pub.year }}</span><div><h3><a href="{{ pub.url }}">{{ pub.title | escape }}</a></h3><p>{{ pub.authors | replace: 'avec', '·' | escape }}.</p><p><em>{{ pub.journal | escape }}</em>, {{ pub.volume }}.</p></div></article>{% endfor %}
-  <p class="note">{{ t.cv_subtitle }}</p>
 </article>

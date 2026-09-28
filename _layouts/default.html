@@ -37,7 +37,7 @@
   </header>
   <main id="main">{{ content }}</main>
   <footer class="site-footer container">
-    <div><a class="footer-name" href="{{ home | relative_url }}">Patience Ngelinkoto Mpia</a><p>{{ t.footer }}</p></div>
+    <div><a class="footer-name" href="{{ home | relative_url }}">{{ t.role }} Patience Ngelinkoto Mpia</a><p>{{ t.footer }}</p></div>
     <div class="quick-links">
       <h2>{{ t.quick_links }}</h2>
       <ul>
@@ -46,7 +46,7 @@
         <li><a href="{{ site.quick_links.upn }}">UPN</a></li>
       </ul>
     </div>
-    <div class="footer-links"><a href="#top">{{ t.back_top }}</a><span>© {{ site.time | date: '%Y' }}</span></div>
+    <div class="footer-links"><a href="#top">{{ t.back_top }}</a><span>© 2024-{{ site.time | date: '%Y' }}</span></div>
   </footer>
 </body>
 </html>
