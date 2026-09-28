@@ -33,14 +33,15 @@ For a different domain, update `url` in `_config.yml`. For a project site (such 
 | `_config.yml` | Site URL, description and professional email |
 | `assets/images/patience-000.jpg` | Original portrait extracted from the supplied CV |
 | `assets/css/style.css` | Responsive design and print styles |
-| `sources.md` | Public source notes and credits |
+| `docs/source-notes.md` | Internal source notes, excluded from the published site |
 
 Publication topics are `water`, `environment` and `chemistry`. Add a record with `year`, `topic`, `title`, `authors`, `journal`, `volume` and `url`. The lists and search update automatically. Both languages render from the same layouts; no JavaScript is required to access the content. Search and the mobile menu progressively enhance the static HTML.
 
 ## Editorial notes
 
 - Biography, education, teaching and dated career milestones come from the supplied CV of 23 October 2024. Her current roles as Dean of the Faculty of Sciences and Technologies at UPN and CEO of CREE were confirmed by the site owner. The CSN bulletin (January 2024, page 14) also documents her CREE leadership and COP28 presentation. Her LinkedIn profile and the featured Top Congo video were supplied for the site.
-- External checks include IMEKO, journal records and the University of Geneva archive; see `/sources/` for links. Publication titles stay in their original language.
+- External checks include IMEKO, journal records and the University of Geneva archive; see `docs/source-notes.md` for links. Publication titles stay in their original language.
+- Footer quick links are configured in `_config.yml`. The CREE URL, `https://cree.example`, is an intentional placeholder; replace it with the official address when available.
 - The French and English introductions are editorial summaries, not verbatim personal statements.
 - The original CV in `resources/` includes personal identifiers and referees’ contact details. That folder is ignored by Git and excluded from the site build. Use `/cv/` or `/en/cv/` for the public academic version; the print button also supports saving as PDF.
 - The original CV appears to transpose the COP27/COP28 locations and has some conflicting employment dates. These ambiguous details were omitted.
