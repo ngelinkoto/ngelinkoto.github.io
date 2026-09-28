@@ -9,7 +9,7 @@ layout: default
   <p class="cv-appointment">{{ t.current_role }} · UPN</p>
   <p class="cv-contact"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
   <p class="cv-contact"><a href="{{ site.linkedin }}">{{ t.connect }}</a></p>
-  <button class="button button-dark" data-print hidden>{{ t.print }} <span aria-hidden="true">↓</span></button>
+  <button class="button button-dark" data-print hidden>{{ t.print }}</button>
   <h2>{{ t.education }}</h2><p>{{ t.education_text }}</p><p>{{ t.training }}</p>
   <h2>{{ t.career }}</h2><p class="note">{{ t.source_note }}</p>
   <div class="career">{% for item in t.career_items %}<div class="career-item"><span class="career-date">{{ item.date }}</span><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></div>{% endfor %}</div>

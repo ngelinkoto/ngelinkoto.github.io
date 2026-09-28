@@ -25,20 +25,20 @@
   <a class="skip-link" href="#main">{{ t.skip }}</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="{{ home | relative_url }}" aria-label="{{ site.title }} · {{ t.home }}"><span class="brand-mark">PN<span>.</span></span><span class="brand-name">Patience Ngelinkoto Mpia<span>{{ t.role }}</span></span></a>
+      <a class="brand" href="{{ home | relative_url }}" aria-label="{{ site.title }} · {{ t.home }}"><span class="brand-name">Patience Ngelinkoto Mpia<span>{{ t.role }}</span></span></a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" hidden>{{ t.menu }} <span aria-hidden="true">☰</span></button>
       <nav id="site-nav" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}Navigation principale{% endif %}">
         {% assign anchors = 'about,research,publications,teaching' | split: ',' %}
         {% for label in t.nav %}<a href="{{ home | relative_url }}#{{ anchors[forloop.index0] }}">{{ label }}</a>{% endfor %}
-        <a class="nav-contact" href="{{ home | relative_url }}#contact">{{ t.contact }} <span aria-hidden="true">↗</span></a>
+        <a class="nav-contact" href="{{ home | relative_url }}#contact">{{ t.contact }}</a>
         {% if page.alternate %}<a class="language-link" href="{{ page.alternate | relative_url }}" lang="{% if page.lang == 'en' %}fr{% else %}en{% endif %}" aria-label="{% if page.lang == 'en' %}Lire en français{% else %}Read in English{% endif %}">{% if page.lang == 'en' %}FR{% else %}EN{% endif %}</a>{% endif %}
       </nav>
     </div>
   </header>
   <main id="main">{{ content }}</main>
   <footer class="site-footer container">
-    <div><a class="footer-name" href="{{ home | relative_url }}">Patience Ngelinkoto Mpia<span class="accent">.</span></a><p>{{ t.footer }}</p></div>
-    <div class="footer-links"><a href="{{ '/sources/' | relative_url }}">{{ t.sources }}</a><a href="#top">{{ t.back_top }} ↑</a><span>© {{ site.time | date: '%Y' }}</span></div>
+    <div><a class="footer-name" href="{{ home | relative_url }}">Patience Ngelinkoto Mpia</a><p>{{ t.footer }}</p></div>
+    <div class="footer-links"><a href="{{ '/sources/' | relative_url }}">{{ t.sources }}</a><a href="#top">{{ t.back_top }}</a><span>© {{ site.time | date: '%Y' }}</span></div>
   </footer>
 </body>
 </html>

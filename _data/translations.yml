@@ -4,31 +4,24 @@ fr:
   contact: Contact
   skip: Aller au contenu
   menu: Menu
-  eyebrow: CHIMIE · ENVIRONNEMENT · ÉCOTOXICOLOGIE
   role: Professeure ordinaire
   current_role: Doyenne de la Faculté des Sciences et Technologies
   faculty: Faculté des Sciences et Technologies
   connect: Me retrouver sur LinkedIn
-  media_label: VIDÉO À LA UNE
-  media_title: La science dans le débat public.
+  media_title: Entretien sur Top Congo
   media_description: Sur Top Congo, l’émission Top Vert aborde la valorisation des déchets biodégradables en biogaz.
   watch: Regarder sur YouTube
   play: Lire la vidéo
-  intro: Comprendre les milieux aquatiques.<br>Contribuer à leur préservation.
-  description: Mes recherches en chimie et environnement portent sur la qualité des eaux, la traçabilité des polluants et les écosystèmes du bassin du Congo.
-  discover: Explorer mes recherches
-  cv: Parcours & CV
+  description: J’étudie la qualité de l’eau et les effets des polluants sur les milieux aquatiques. Mes travaux portent notamment sur les rivières et les tourbières du bassin du Congo.
+  discover: Voir mes publications
+  cv: Consulter mon CV
   location: Kinshasa, République démocratique du Congo
   portrait: Portrait de la professeure Patience Ngelinkoto Mpia
   institution: Université Pédagogique Nationale
   department: Département de chimie
-  card_note: Science, transmission & environnement
-  strip:
-    [Chimie & environnement, Qualité des eaux, Écosystèmes du bassin du Congo]
-  about_label: À PROPOS
-  about_title: La recherche au service<br>de l’environnement.
-  about_p1: Docteure en chimie et environnement, spécialisée en écotoxicologie, Patience Ngelinkoto Mpia étudie la pollution des eaux, des sédiments et des poissons. Son expertise associe analyses physico-chimiques et toxicologiques à l’évaluation des risques pour les milieux naturels.
-  about_p2: Actuellement doyenne de la Faculté des Sciences et Technologies de l’Université Pédagogique Nationale (UPN), elle conjugue recherche, enseignement et responsabilités académiques. Elle contribue également à des travaux menés en collaboration avec l’Université de Genève et l’Université de Kinshasa.
+  about_title: À propos
+  about_p1: Je suis docteure en chimie et environnement, spécialisée en écotoxicologie. J’analyse la présence de polluants dans l’eau, les sédiments et les poissons pour mieux comprendre leurs effets sur l’environnement.
+  about_p2: J’enseigne au Département de chimie de l’UPN depuis 2013 et je suis actuellement doyenne de la Faculté des Sciences et Technologies. Mes recherches m’ont aussi amenée à travailler avec des collègues de l’Université de Kinshasa et de l’Université de Genève.
   career: Repères du parcours
   career_note: Parcours issu du CV de 2024, complété par la fonction actuelle de doyenne.
   teaching_note: Enseignements documentés dans le CV d’octobre 2024.
@@ -45,26 +38,24 @@ fr:
     - date: Doctorat
       title: Chimie & environnement
       text: Spécialité écotoxicologie. Mention « la plus grande distinction ».
-  research_label: AXES DE RECHERCHE
-  research_title: Observer. Comprendre. Préserver.
-  research_intro: Des analyses en laboratoire aux écosystèmes du bassin du Congo, trois axes complémentaires structurent ses travaux.
+  research_title: Recherche
+  research_intro: Mes travaux portent sur trois domaines liés à la chimie et à l’environnement.
   research:
     - title: Eau & écotoxicologie
-      text: Évaluer la qualité des eaux et la contamination des sédiments et des poissons par les éléments traces métalliques.
+      text: J’étudie la qualité de l’eau et la contamination des sédiments et des poissons par les métaux. Ces analyses permettent d’évaluer les risques pour les milieux aquatiques.
       tags: Qualité de l’eau · Pollution · Bioaccumulation
       topic: water
     - title: Écosystèmes & environnement
-      text: Caractériser les tourbières du bassin du Congo et étudier les pressions sur les milieux naturels, ainsi que la gestion des déchets.
+      text: Je contribue à l’étude des tourbières du bassin du Congo. Je participe également à des travaux sur la gestion des déchets et leurs effets sur l’environnement.
       tags: Tourbières · Bassin du Congo · Assainissement
       topic: environment
     - title: Chimie & ressources naturelles
-      text: Explorer la composition chimique, les éléments minéraux et les facteurs antinutritionnels de ressources végétales et alimentaires.
+      text: J’étudie la composition de plantes et d’aliments, notamment leur teneur en minéraux et en substances susceptibles de limiter l’absorption des nutriments.
       tags: Phytochimie · Analyse · Ressources alimentaires
       topic: chemistry
-  related: Voir les travaux
-  publications_label: PUBLICATIONS SCIENTIFIQUES
-  publications_title: Une sélection de travaux.
-  publications_intro: Articles coécrits entre 2014 et 2024. Les titres sont présentés dans leur langue de publication.
+  related: Voir les publications associées
+  publications_title: Publications sélectionnées
+  publications_intro: Voici quelques articles auxquels j’ai contribué entre 2014 et 2024. Vous pouvez les rechercher par titre, auteur ou année, ou choisir un domaine.
   all: Tous les domaines
   topics:
     water: Eau & écotoxicologie
@@ -75,21 +66,20 @@ fr:
   empty: Aucun article ne correspond à votre recherche.
   reset: Réinitialiser la recherche
   read: Lire l’article
-  teaching_label: ENSEIGNEMENT & TRANSMISSION
-  teaching_title: Former les scientifiques<br>de demain.
-  teaching_text: L’enseignement prolonge la recherche, en reliant les fondements de la chimie aux enjeux de santé et d’environnement.
+  teaching_label: Enseignement
+  teaching_title: Enseignement
+  teaching_text: Mes cours portent sur la chimie, la toxicologie et l’environnement. J’enseigne à l’UPN et j’ai également donné des cours comme professeure invitée à Mbandaka et à l’Université Loyola du Congo.
   courses:
     - school: Université Pédagogique Nationale
-      detail: Professorat documenté depuis 2013
+      detail: Département de chimie, depuis 2013
       subjects: Toxicologie et écotoxicologie · Chimie verte · Chimie et société · Environnement et assainissement · Limnologie
     - school: Université de Mbandaka
-      detail: Professorat visiteur documenté depuis 2015
+      detail: Enseignement comme professeure invitée
       subjects: Chimie organique · Biochimie · Toxicologie et écotoxicologie · Chimie de l’environnement
     - school: Université Loyola du Congo
-      detail: Professorat visiteur documenté depuis 2015
+      detail: Enseignement comme professeure invitée
       subjects: Gestion et contrôle qualité · Normalisation, accréditation et métrologie · Chimie physique des aliments · Toxicologie et nutrition
-  network_label: COMMUNAUTÉ SCIENTIFIQUE
-  network_title: Une recherche en dialogue.
+  network_title: Activités scientifiques
   networks:
     - name: IMEKO · TC24
       text: Membre du comité technique consacré aux mesures chimiques.
@@ -97,9 +87,8 @@ fr:
     - name: Revue Congolaise des Sciences et Technologies
       text: Membre du comité de rédaction.
       url: https://www.ajol.info/index.php/rcst/about/editorialTeam
-  contact_label: PRENDRE CONTACT
-  contact_title: Échangeons autour<br>de la recherche.
-  contact_text: Pour un échange scientifique, une collaboration de recherche ou une question relative à l’enseignement.
+  contact_title: Contact
+  contact_text: Vous pouvez m’écrire pour discuter d’un projet de recherche ou me poser une question sur mes travaux et mes enseignements.
   email_label: Écrire un courriel
   back_top: Retour en haut
   sources: Sources & crédits
@@ -117,30 +106,24 @@ en:
   contact: Contact
   skip: Skip to content
   menu: Menu
-  eyebrow: CHEMISTRY · ENVIRONMENT · ECOTOXICOLOGY
   role: Full Professor
   current_role: Dean of the Faculty of Sciences and Technologies
   faculty: Faculty of Sciences and Technologies
   connect: Connect on LinkedIn
-  media_label: FEATURED VIDEO
-  media_title: Bringing science into public discussion.
+  media_title: Interview on Top Congo
   media_description: On Top Congo, the Top Vert programme explores converting biodegradable waste into biogas. Video in French.
   watch: Watch on YouTube
   play: Play video
-  intro: Understanding aquatic environments.<br>Contributing to their preservation.
-  description: My research in chemistry and environmental science explores water quality, pollutant tracing and Congo Basin ecosystems.
-  discover: Explore my research
-  cv: Academic CV
+  description: I study water quality and the effects of pollutants on aquatic environments. My work focuses on rivers and peatlands in the Congo Basin.
+  discover: View my publications
+  cv: View my CV
   location: Kinshasa, Democratic Republic of the Congo
   portrait: Portrait of Professor Patience Ngelinkoto Mpia
   institution: Université Pédagogique Nationale
   department: Department of Chemistry
-  card_note: Science, education & environment
-  strip: [Chemistry & environment, Water quality, Congo Basin ecosystems]
-  about_label: ABOUT
-  about_title: Research in service<br>of the environment.
-  about_p1: With a doctorate in chemistry and environmental science and a specialisation in ecotoxicology, Patience Ngelinkoto Mpia studies pollution in water, sediment and fish. Her expertise combines physicochemical and toxicological analysis with environmental risk assessment.
-  about_p2: Currently Dean of the Faculty of Sciences and Technologies at the National Pedagogical University (UPN), she brings together research, teaching and academic leadership. She also contributes to collaborative research with the University of Geneva and the University of Kinshasa.
+  about_title: About me
+  about_p1: I hold a doctorate in chemistry and environmental science, specialising in ecotoxicology. I analyse pollutants in water, sediment and fish to understand their effects on the environment.
+  about_p2: I have taught in UPN’s Department of Chemistry since 2013 and currently serve as Dean of the Faculty of Sciences and Technologies. My research has also involved working with colleagues at the University of Kinshasa and the University of Geneva.
   career: Career milestones
   career_note: Career details from the 2024 CV, updated with her current role as Dean.
   teaching_note: Teaching documented in the October 2024 CV.
@@ -157,26 +140,24 @@ en:
     - date: PhD
       title: Chemistry & environmental science
       text: Specialisation in ecotoxicology, awarded with the highest distinction.
-  research_label: RESEARCH AREAS
-  research_title: Observe. Understand. Preserve.
-  research_intro: From laboratory analysis to Congo Basin ecosystems, three complementary areas connect her research.
+  research_title: Research
+  research_intro: My research covers three related areas of chemistry and environmental science.
   research:
     - title: Water & ecotoxicology
-      text: Assessing water quality and trace metal contamination in sediment and fish.
+      text: I study water quality and metal contamination in sediment and fish. These analyses help assess risks to aquatic environments.
       tags: Water quality · Pollution · Bioaccumulation
       topic: water
     - title: Ecosystems & environment
-      text: Characterising Congo Basin peatlands and investigating pressures on natural environments, alongside waste management.
+      text: I contribute to studies of Congo Basin peatlands. I also work on waste management and its effects on the environment.
       tags: Peatlands · Congo Basin · Sanitation
       topic: environment
     - title: Chemistry & natural resources
-      text: Exploring chemical composition, mineral content and antinutritional factors in plant and food resources.
+      text: I study the composition of plants and foods, including their mineral content and substances that can reduce nutrient absorption.
       tags: Phytochemistry · Analysis · Food resources
       topic: chemistry
-  related: Explore publications
-  publications_label: SCIENTIFIC PUBLICATIONS
-  publications_title: Selected research.
-  publications_intro: Coauthored articles from 2014 to 2024. Titles appear in their original publication language.
+  related: View related publications
+  publications_title: Selected publications
+  publications_intro: These are some of the articles I contributed to between 2014 and 2024. Search by title, author or year, or select a research area.
   all: All research areas
   topics:
     water: Water & ecotoxicology
@@ -187,21 +168,20 @@ en:
   empty: No publications match your search.
   reset: Clear search and filters
   read: Read article
-  teaching_label: TEACHING & MENTORSHIP
-  teaching_title: Educating the next<br>generation of scientists.
-  teaching_text: Teaching extends the work of research, connecting the foundations of chemistry to questions of health and the environment.
+  teaching_label: Teaching
+  teaching_title: Teaching
+  teaching_text: My courses cover chemistry, toxicology and environmental science. I teach at UPN and have also taught as a visiting professor at the University of Mbandaka and Université Loyola du Congo.
   courses:
     - school: Université Pédagogique Nationale
-      detail: Professorship documented from 2013
+      detail: Department of Chemistry, since 2013
       subjects: Toxicology and ecotoxicology · Green chemistry · Chemistry and society · Environment and sanitation · Limnology
     - school: Université de Mbandaka
-      detail: Visiting professorship documented from 2015
+      detail: Visiting teaching
       subjects: Organic chemistry · Biochemistry · Toxicology and ecotoxicology · Environmental chemistry
     - school: Université Loyola du Congo
-      detail: Visiting professorship documented from 2015
+      detail: Visiting teaching
       subjects: Quality management and control · Standardisation, accreditation and metrology · Food physical chemistry · Toxicology and nutrition
-  network_label: SCIENTIFIC COMMUNITY
-  network_title: Research through exchange.
+  network_title: Scientific service
   networks:
     - name: IMEKO · TC24
       text: Member of the technical committee on chemical measurements.
@@ -209,9 +189,8 @@ en:
     - name: Revue Congolaise des Sciences et Technologies
       text: Member of the editorial committee.
       url: https://www.ajol.info/index.php/rcst/about/editorialTeam
-  contact_label: GET IN TOUCH
-  contact_title: Let’s connect<br>through research.
-  contact_text: For scientific exchange, research collaboration or enquiries about teaching.
+  contact_title: Contact
+  contact_text: You are welcome to email me about a research project or with questions about my work and teaching.
   email_label: Send an email
   back_top: Back to top
   sources: Sources & credits
