@@ -19,13 +19,13 @@
   <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Patience NGELINKOTO MPIA","url":{{ '/' | absolute_url | jsonify }},"image":{{ '/assets/images/patience-000.jpg' | absolute_url | jsonify }},"jobTitle":"Professeure ordinaire","affiliation":{"@type":"CollegeOrUniversity","name":"Université Pédagogique Nationale"},"knowsAbout":["Ecotoxicology","Water quality","Environmental chemistry"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Patience NGELINKOTO MPIA","url":{{ '/' | absolute_url | jsonify }},"image":{{ '/assets/images/patience-000.jpg' | absolute_url | jsonify }},"jobTitle":{{ t.current_role | jsonify }},"sameAs":[{{ site.linkedin | jsonify }}],"affiliation":{"@type":"CollegeOrUniversity","name":"Université Pédagogique Nationale"},"knowsAbout":["Ecotoxicology","Water quality","Environmental chemistry"]}</script>
 </head>
 <body id="top">
   <a class="skip-link" href="#main">{{ t.skip }}</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="{{ home | relative_url }}" aria-label="{{ site.title }} — {{ t.home }}"><span class="brand-mark">PN<span>.</span></span><span class="brand-name">Patience Ngelinkoto Mpia<span>{{ t.role }}</span></span></a>
+      <a class="brand" href="{{ home | relative_url }}" aria-label="{{ site.title }} · {{ t.home }}"><span class="brand-mark">PN<span>.</span></span><span class="brand-name">Patience Ngelinkoto Mpia<span>{{ t.role }}</span></span></a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" hidden>{{ t.menu }} <span aria-hidden="true">☰</span></button>
       <nav id="site-nav" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}Navigation principale{% endif %}">
         {% assign anchors = 'about,research,publications,teaching' | split: ',' %}

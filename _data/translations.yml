@@ -6,8 +6,16 @@ fr:
   menu: Menu
   eyebrow: CHIMIE · ENVIRONNEMENT · ÉCOTOXICOLOGIE
   role: Professeure ordinaire
+  current_role: Doyenne de la Faculté des Sciences et Technologies
+  faculty: Faculté des Sciences et Technologies
+  connect: Me retrouver sur LinkedIn
+  media_label: VIDÉO À LA UNE
+  media_title: La science dans le débat public.
+  media_description: Sur Top Congo, l’émission Top Vert aborde la valorisation des déchets biodégradables en biogaz.
+  watch: Regarder sur YouTube
+  play: Lire la vidéo
   intro: Comprendre les milieux aquatiques.<br>Contribuer à leur préservation.
-  description: Professeure de chimie et d’environnement à l’Université Pédagogique Nationale, mes travaux portent sur la qualité des eaux, la traçabilité des polluants et les écosystèmes du bassin du Congo.
+  description: Mes recherches en chimie et environnement portent sur la qualité des eaux, la traçabilité des polluants et les écosystèmes du bassin du Congo.
   discover: Explorer mes recherches
   cv: Parcours & CV
   location: Kinshasa, République démocratique du Congo
@@ -20,10 +28,14 @@ fr:
   about_label: À PROPOS
   about_title: La recherche au service<br>de l’environnement.
   about_p1: Docteure en chimie et environnement, spécialisée en écotoxicologie, Patience Ngelinkoto Mpia étudie la pollution des eaux, des sédiments et des poissons. Son expertise associe analyses physico-chimiques et toxicologiques à l’évaluation des risques pour les milieux naturels.
-  about_p2: Son parcours conjugue recherche, enseignement universitaire et responsabilités scientifiques en République démocratique du Congo. Elle contribue également à des travaux menés en collaboration avec l’Université de Genève et l’Université de Kinshasa.
+  about_p2: Actuellement doyenne de la Faculté des Sciences et Technologies de l’Université Pédagogique Nationale (UPN), elle conjugue recherche, enseignement et responsabilités académiques. Elle contribue également à des travaux menés en collaboration avec l’Université de Genève et l’Université de Kinshasa.
   career: Repères du parcours
-  career_note: Fonctions documentées dans le CV d’octobre 2024.
+  career_note: Parcours issu du CV de 2024, complété par la fonction actuelle de doyenne.
+  teaching_note: Enseignements documentés dans le CV d’octobre 2024.
   career_items:
+    - date: Actuel
+      title: Doyenne de la Faculté des Sciences et Technologies
+      text: Université Pédagogique Nationale (UPN), Kinshasa.
     - date: "2022"
       title: Direction & responsabilité académique
       text: Prise de fonctions à la direction générale du Centre de Recherche en Eau et Environnement (CREE) et au décanat de la Faculté des Sciences de l’UPN.
@@ -93,12 +105,12 @@ fr:
   sources: Sources & crédits
   footer: Chimie, environnement et écotoxicologie.
   cv_title: Parcours académique
-  cv_subtitle: Synthèse du CV fourni, daté du 23 octobre 2024.
+  cv_subtitle: Synthèse du CV du 23 octobre 2024, complétée par la fonction actuelle de doyenne.
   print: Imprimer / enregistrer en PDF
   education: Formation & expertise
   education_text: Doctorat en chimie et environnement, spécialité écotoxicologie (la plus grande distinction) ; master en chimie et environnement ; licence en chimie.
   training: Formation complémentaire en gestion durable des eaux souterraines et adaptation au changement climatique, American University in Cairo, 7–27 septembre 2024.
-  source_note: Les fonctions et enseignements ci-dessous sont documentés en octobre 2024 ; leur continuation ultérieure n’est pas présumée.
+  source_note: La fonction actuelle de doyenne a été communiquée pour la mise à jour du site. Les autres repères et enseignements sont issus du CV d’octobre 2024.
 en:
   home: Home
   nav: [About, Research, Publications, Teaching]
@@ -107,8 +119,16 @@ en:
   menu: Menu
   eyebrow: CHEMISTRY · ENVIRONMENT · ECOTOXICOLOGY
   role: Full Professor
+  current_role: Dean of the Faculty of Sciences and Technologies
+  faculty: Faculty of Sciences and Technologies
+  connect: Connect on LinkedIn
+  media_label: FEATURED VIDEO
+  media_title: Bringing science into public discussion.
+  media_description: On Top Congo, the Top Vert programme explores converting biodegradable waste into biogas. Video in French.
+  watch: Watch on YouTube
+  play: Play video
   intro: Understanding aquatic environments.<br>Contributing to their preservation.
-  description: A professor of chemistry and environmental science at Université Pédagogique Nationale, my research explores water quality, pollutant tracing and Congo Basin ecosystems.
+  description: My research in chemistry and environmental science explores water quality, pollutant tracing and Congo Basin ecosystems.
   discover: Explore my research
   cv: Academic CV
   location: Kinshasa, Democratic Republic of the Congo
@@ -120,10 +140,14 @@ en:
   about_label: ABOUT
   about_title: Research in service<br>of the environment.
   about_p1: With a doctorate in chemistry and environmental science and a specialisation in ecotoxicology, Patience Ngelinkoto Mpia studies pollution in water, sediment and fish. Her expertise combines physicochemical and toxicological analysis with environmental risk assessment.
-  about_p2: Her career brings together research, university teaching and scientific leadership in the Democratic Republic of the Congo. She also contributes to collaborative research with the University of Geneva and the University of Kinshasa.
+  about_p2: Currently Dean of the Faculty of Sciences and Technologies at the National Pedagogical University (UPN), she brings together research, teaching and academic leadership. She also contributes to collaborative research with the University of Geneva and the University of Kinshasa.
   career: Career milestones
-  career_note: Roles documented in the October 2024 CV.
+  career_note: Career details from the 2024 CV, updated with her current role as Dean.
+  teaching_note: Teaching documented in the October 2024 CV.
   career_items:
+    - date: Current
+      title: Dean of the Faculty of Sciences and Technologies
+      text: National Pedagogical University (UPN), Kinshasa.
     - date: "2022"
       title: Scientific & academic leadership
       text: Took office as Director General of the Centre de Recherche en Eau et Environnement (CREE) and Dean of the Faculty of Sciences at UPN.
@@ -193,9 +217,9 @@ en:
   sources: Sources & credits
   footer: Chemistry, environmental science and ecotoxicology.
   cv_title: Academic background
-  cv_subtitle: A summary of the supplied CV, dated 23 October 2024.
+  cv_subtitle: A summary of the October 2024 CV, updated with her current role as Dean.
   print: Print / save as PDF
   education: Education & expertise
   education_text: Doctorate in chemistry and environmental science, specialising in ecotoxicology (highest distinction); master’s in chemistry and environmental science; degree in chemistry.
   training: Further training in sustainable groundwater resource management and climate change adaptation, American University in Cairo, 7–27 September 2024.
-  source_note: The roles and teaching below are documented as of October 2024; continuation beyond that date is not assumed.
+  source_note: Her current role as Dean was supplied for this website update. Other career milestones and teaching details come from the October 2024 CV.

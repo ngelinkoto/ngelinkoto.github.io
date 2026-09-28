@@ -1,4 +1,4 @@
-# Patience NGELINKOTO MPIA — academic website
+# Patience NGELINKOTO MPIA · academic website
 
 A custom, responsive Jekyll website in French and English, prepared for **https://ngelinkoto.github.io**. Includes a sourced academic profile, seven selected publications with accessible topic filters and accent-insensitive search, teaching, contact links, and printable academic CVs.
 
@@ -39,12 +39,13 @@ Publication topics are `water`, `environment` and `chemistry`. Add a record with
 
 ## Editorial notes
 
-- Biography, education, teaching and dated career milestones come from the supplied CV of 23 October 2024. Leadership roles are not represented as independently verified current appointments.
+- Biography, education, teaching and dated career milestones come from the supplied CV of 23 October 2024. Her current position as Dean of the Faculty of Sciences and Technologies at UPN was supplied by the site owner, along with her LinkedIn profile and the featured Top Congo video.
 - External checks include IMEKO, journal records and the University of Geneva archive; see `/sources/` for links. Publication titles stay in their original language.
 - The French and English introductions are editorial summaries, not verbatim personal statements.
 - The original CV in `resources/` includes personal identifiers and referees’ contact details. That folder is ignored by Git and excluded from the site build. Use `/cv/` or `/en/cv/` for the public academic version; the print button also supports saving as PDF.
 - The original CV appears to transpose the COP27/COP28 locations and has some conflicting employment dates. These ambiguous details were omitted.
-- There are no trackers, external font requests or remote image dependencies.
+- Source Serif 4 headings and Source Sans 3 body text are hosted locally with their SIL Open Font Licenses in `assets/fonts/`. Body copy is 18px on desktop and 16px on mobile; secondary labels use 12px or larger text.
+- The video loads a YouTube privacy-enhanced player only when the visitor presses play. A direct YouTube link also works without JavaScript. There are no external font requests or remote image dependencies.
 
 ## Validation
 
