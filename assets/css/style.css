@@ -492,6 +492,19 @@ nav a:hover {
   gap: 64px;
   border-top: 1px solid var(--line);
 }
+.bulletin-feature {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+.bulletin-feature > p {
+  max-width: 70ch;
+  margin-top: 14px;
+}
+.bulletin-feature > .text-link {
+  display: inline-block;
+  margin-top: 14px;
+}
 .network-list a {
   display: block;
   margin-bottom: 24px;

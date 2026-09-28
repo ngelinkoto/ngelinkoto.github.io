@@ -39,7 +39,7 @@ Publication topics are `water`, `environment` and `chemistry`. Add a record with
 
 ## Editorial notes
 
-- Biography, education, teaching and dated career milestones come from the supplied CV of 23 October 2024. Her current position as Dean of the Faculty of Sciences and Technologies at UPN was supplied by the site owner, along with her LinkedIn profile and the featured Top Congo video.
+- Biography, education, teaching and dated career milestones come from the supplied CV of 23 October 2024. Her current roles as Dean of the Faculty of Sciences and Technologies at UPN and CEO of CREE were confirmed by the site owner. The CSN bulletin (January 2024, page 14) also documents her CREE leadership and COP28 presentation. Her LinkedIn profile and the featured Top Congo video were supplied for the site.
 - External checks include IMEKO, journal records and the University of Geneva archive; see `/sources/` for links. Publication titles stay in their original language.
 - The French and English introductions are editorial summaries, not verbatim personal statements.
 - The original CV in `resources/` includes personal identifiers and referees’ contact details. That folder is ignored by Git and excluded from the site build. Use `/cv/` or `/en/cv/` for the public academic version; the print button also supports saving as PDF.

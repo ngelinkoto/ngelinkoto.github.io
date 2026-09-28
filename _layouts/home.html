@@ -8,6 +8,7 @@ layout: default
     <p class="hero-role">{{ t.role }}</p>
     <h1 id="hero-title">Patience<br>Ngelinkoto Mpia</h1>
     <p class="hero-appointment">{{ t.current_role }}<br><span>{{ t.institution }} (UPN)</span></p>
+    <p class="hero-appointment">{{ t.research_role }}<br><span>{{ t.research_centre }}</span></p>
     <p class="hero-description">{{ t.description }}</p>
     <div class="hero-actions"><a class="text-link" href="#publications">{{ t.discover }}</a><a class="text-link" href="{{ cv_url | relative_url }}">{{ t.cv }}</a></div>
     <p class="location">{{ t.location }}</p>
@@ -49,6 +50,12 @@ layout: default
     </div>
     <figcaption lang="fr">{{ site.featured_video.title }}</figcaption>
   </figure>
+  <article class="bulletin-feature">
+    <h3>{{ t.bulletin_title }}</h3>
+    <p>{{ t.bulletin_description }}</p>
+    <p class="note">{{ t.bulletin_detail }}</p>
+    <a class="text-link" href="{{ site.featured_bulletin.url }}">{{ t.bulletin_link }}</a>
+  </article>
 </section>
 
 <section class="section container network-section" aria-labelledby="network-title"><div><h2 id="network-title">{{ t.network_title }}</h2></div><div class="network-list">{% for network in t.networks %}<a href="{{ network.url }}"><div><h3>{{ network.name }}</h3><p>{{ network.text }}</p></div></a>{% endfor %}</div></section>

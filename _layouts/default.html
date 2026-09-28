@@ -19,7 +19,7 @@
   <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Patience NGELINKOTO MPIA","url":{{ '/' | absolute_url | jsonify }},"image":{{ '/assets/images/patience-000.jpg' | absolute_url | jsonify }},"jobTitle":{{ t.current_role | jsonify }},"sameAs":[{{ site.linkedin | jsonify }}],"affiliation":{"@type":"CollegeOrUniversity","name":"Université Pédagogique Nationale"},"knowsAbout":["Ecotoxicology","Water quality","Environmental chemistry"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Patience NGELINKOTO MPIA","url":{{ '/' | absolute_url | jsonify }},"image":{{ '/assets/images/patience-000.jpg' | absolute_url | jsonify }},"jobTitle":[{{ t.current_role | jsonify }},{{ t.research_role | jsonify }}],"sameAs":[{{ site.linkedin | jsonify }}],"affiliation":[{"@type":"CollegeOrUniversity","name":"Université Pédagogique Nationale"},{"@type":"ResearchOrganization","name":"Centre de Recherche en Eau et Environnement","alternateName":"CREE"}],"knowsAbout":["Ecotoxicology","Water quality","Environmental chemistry"]}</script>
 </head>
 <body id="top">
   <a class="skip-link" href="#main">{{ t.skip }}</a>

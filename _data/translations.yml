@@ -6,10 +6,16 @@ fr:
   menu: Menu
   role: Professeure ordinaire
   current_role: Doyenne de la Faculté des Sciences et Technologies
+  research_role: Directrice générale du CREE
+  research_centre: Centre de Recherche en Eau et Environnement
   faculty: Faculté des Sciences et Technologies
   connect: Me retrouver sur LinkedIn
   media_title: Entretien sur Top Congo
   media_description: Sur Top Congo, l’émission Top Vert aborde la valorisation des déchets biodégradables en biogaz.
+  bulletin_title: Les tourbières du bassin du Congo à la COP28
+  bulletin_description: Le bulletin du Conseil Scientifique National revient sur ma présentation à la COP28, consacrée aux recherches sur les tourbières de Lokolama, Eala et Mpama. Il présente également mon rôle à la direction du CREE.
+  bulletin_detail: Bulletin n°015, janvier 2024, page 14.
+  bulletin_link: Lire le bulletin (PDF en anglais, 13 Mo)
   watch: Regarder sur YouTube
   play: Lire la vidéo
   description: J’étudie la qualité de l’eau et les effets des polluants sur les milieux aquatiques. Mes travaux portent notamment sur les rivières et les tourbières du bassin du Congo.
@@ -21,17 +27,17 @@ fr:
   department: Département de chimie
   about_title: À propos
   about_p1: Je suis docteure en chimie et environnement, spécialisée en écotoxicologie. J’analyse la présence de polluants dans l’eau, les sédiments et les poissons pour mieux comprendre leurs effets sur l’environnement.
-  about_p2: J’enseigne au Département de chimie de l’UPN depuis 2013 et je suis actuellement doyenne de la Faculté des Sciences et Technologies. Mes recherches m’ont aussi amenée à travailler avec des collègues de l’Université de Kinshasa et de l’Université de Genève.
+  about_p2: J’enseigne au Département de chimie de l’UPN depuis 2013 et je suis actuellement doyenne de la Faculté des Sciences et Technologies. Je dirige également le Centre de Recherche en Eau et Environnement (CREE). Mes recherches m’ont amenée à travailler avec des collègues de l’Université de Kinshasa et de l’Université de Genève.
   career: Repères du parcours
-  career_note: Parcours issu du CV de 2024, complété par la fonction actuelle de doyenne.
+  career_note: Parcours issu du CV de 2024, complété par les fonctions actuelles à l’UPN et au CREE.
   teaching_note: Enseignements documentés dans le CV d’octobre 2024.
   career_items:
     - date: Actuel
       title: Doyenne de la Faculté des Sciences et Technologies
       text: Université Pédagogique Nationale (UPN), Kinshasa.
     - date: "2022"
-      title: Direction & responsabilité académique
-      text: Prise de fonctions à la direction générale du Centre de Recherche en Eau et Environnement (CREE) et au décanat de la Faculté des Sciences de l’UPN.
+      title: Directrice générale du CREE
+      text: Direction du Centre de Recherche en Eau et Environnement depuis 2022.
     - date: "2013"
       title: Professorat en chimie
       text: Professeure au Département de chimie de l’Université Pédagogique Nationale.
@@ -94,12 +100,12 @@ fr:
   sources: Sources & crédits
   footer: Chimie, environnement et écotoxicologie.
   cv_title: Parcours académique
-  cv_subtitle: Synthèse du CV du 23 octobre 2024, complétée par la fonction actuelle de doyenne.
+  cv_subtitle: Synthèse du CV du 23 octobre 2024, complétée par les fonctions actuelles à l’UPN et au CREE.
   print: Imprimer / enregistrer en PDF
   education: Formation & expertise
   education_text: Doctorat en chimie et environnement, spécialité écotoxicologie (la plus grande distinction) ; master en chimie et environnement ; licence en chimie.
   training: Formation complémentaire en gestion durable des eaux souterraines et adaptation au changement climatique, American University in Cairo, 7–27 septembre 2024.
-  source_note: La fonction actuelle de doyenne a été communiquée pour la mise à jour du site. Les autres repères et enseignements sont issus du CV d’octobre 2024.
+  source_note: Les fonctions actuelles à l’UPN et au CREE ont été confirmées pour la mise à jour du site. Les autres repères et enseignements sont issus du CV d’octobre 2024.
 en:
   home: Home
   nav: [About, Research, Publications, Teaching]
@@ -108,10 +114,16 @@ en:
   menu: Menu
   role: Full Professor
   current_role: Dean of the Faculty of Sciences and Technologies
+  research_role: CEO of CREE
+  research_centre: Centre de Recherche en Eau et Environnement
   faculty: Faculty of Sciences and Technologies
   connect: Connect on LinkedIn
   media_title: Interview on Top Congo
   media_description: On Top Congo, the Top Vert programme explores converting biodegradable waste into biogas. Video in French.
+  bulletin_title: Congo Basin peatlands at COP28
+  bulletin_description: The National Scientific Council’s bulletin covers my COP28 presentation on research into the peatlands of Lokolama, Eala and Mpama. It also identifies me as CEO and Director General of CREE.
+  bulletin_detail: Bulletin No. 015, January 2024, page 14.
+  bulletin_link: Read the bulletin (English PDF, 13 MB)
   watch: Watch on YouTube
   play: Play video
   description: I study water quality and the effects of pollutants on aquatic environments. My work focuses on rivers and peatlands in the Congo Basin.
@@ -123,17 +135,17 @@ en:
   department: Department of Chemistry
   about_title: About me
   about_p1: I hold a doctorate in chemistry and environmental science, specialising in ecotoxicology. I analyse pollutants in water, sediment and fish to understand their effects on the environment.
-  about_p2: I have taught in UPN’s Department of Chemistry since 2013 and currently serve as Dean of the Faculty of Sciences and Technologies. My research has also involved working with colleagues at the University of Kinshasa and the University of Geneva.
+  about_p2: I have taught in UPN’s Department of Chemistry since 2013 and currently serve as Dean of the Faculty of Sciences and Technologies. I am also CEO of the Centre de Recherche en Eau et Environnement (CREE). My research has involved working with colleagues at the University of Kinshasa and the University of Geneva.
   career: Career milestones
-  career_note: Career details from the 2024 CV, updated with her current role as Dean.
+  career_note: Career details from the 2024 CV, updated with her current roles at UPN and CREE.
   teaching_note: Teaching documented in the October 2024 CV.
   career_items:
     - date: Current
       title: Dean of the Faculty of Sciences and Technologies
       text: National Pedagogical University (UPN), Kinshasa.
     - date: "2022"
-      title: Scientific & academic leadership
-      text: Took office as Director General of the Centre de Recherche en Eau et Environnement (CREE) and Dean of the Faculty of Sciences at UPN.
+      title: CEO of CREE
+      text: Leading the Centre de Recherche en Eau et Environnement since 2022.
     - date: "2013"
       title: Professorship in chemistry
       text: Professor in the Department of Chemistry at Université Pédagogique Nationale.
@@ -196,9 +208,9 @@ en:
   sources: Sources & credits
   footer: Chemistry, environmental science and ecotoxicology.
   cv_title: Academic background
-  cv_subtitle: A summary of the October 2024 CV, updated with her current role as Dean.
+  cv_subtitle: A summary of the October 2024 CV, updated with her current roles at UPN and CREE.
   print: Print / save as PDF
   education: Education & expertise
   education_text: Doctorate in chemistry and environmental science, specialising in ecotoxicology (highest distinction); master’s in chemistry and environmental science; degree in chemistry.
   training: Further training in sustainable groundwater resource management and climate change adaptation, American University in Cairo, 7–27 September 2024.
-  source_note: Her current role as Dean was supplied for this website update. Other career milestones and teaching details come from the October 2024 CV.
+  source_note: Her current roles at UPN and CREE were confirmed for this website update. Other career milestones and teaching details come from the October 2024 CV.
