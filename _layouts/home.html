@@ -8,6 +8,7 @@ layout: default
     <p class="eyebrow"><span class="small-line"></span>{{ t.eyebrow }}</p>
     <p class="hero-role">{{ t.role }}</p>
     <h1 id="hero-title">Patience<br>Ngelinkoto Mpia<span class="accent">.</span></h1>
+    <p class="hero-appointment">{{ t.current_role }}<br><span>{{ t.institution }} (UPN)</span></p>
     <p class="hero-statement">{{ t.intro }}</p>
     <p class="hero-description">{{ t.description }}</p>
     <div class="hero-actions"><a class="button button-dark" href="#research">{{ t.discover }} <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ cv_url | relative_url }}">{{ t.cv }} <span aria-hidden="true">↗</span></a></div>
@@ -40,8 +41,22 @@ layout: default
   <div id="empty-results" class="empty-results" hidden><p>{{ t.empty }}</p><button class="text-link" id="reset-search">{{ t.reset }} ↗</button></div>
 </section>
 
-<section id="teaching" class="teaching-section section" aria-labelledby="teaching-title"><div class="container teaching-grid"><div><p class="eyebrow">04 / {{ t.teaching_label }}</p><h2 id="teaching-title">{{ t.teaching_title }}</h2><p>{{ t.teaching_text }}</p><p class="note">{{ t.career_note }}</p></div><div class="course-list">{% for course in t.courses %}<article><span class="course-detail">{{ course.detail }}</span><h3>{{ course.school }}</h3><p>{{ course.subjects }}</p></article>{% endfor %}</div></div></section>
+<section id="teaching" class="teaching-section section" aria-labelledby="teaching-title"><div class="container teaching-grid"><div><p class="eyebrow">04 / {{ t.teaching_label }}</p><h2 id="teaching-title">{{ t.teaching_title }}</h2><p>{{ t.teaching_text }}</p><p class="note">{{ t.teaching_note }}</p></div><div class="course-list">{% for course in t.courses %}<article><span class="course-detail">{{ course.detail }}</span><h3>{{ course.school }}</h3><p>{{ course.subjects }}</p></article>{% endfor %}</div></div></section>
+
+<section id="media" class="section container media-section" aria-labelledby="media-title">
+  <div class="media-copy"><p class="eyebrow">05 / {{ t.media_label }}</p><h2 id="media-title">{{ t.media_title }}</h2><p>{{ t.media_description }}</p><a class="text-link" href="{{ site.featured_video.url }}">{{ t.watch }} <span aria-hidden="true">↗</span></a></div>
+  <figure class="featured-video">
+    <div class="video-player" data-video-id="{{ site.featured_video.id }}" data-video-title="{{ site.featured_video.title | escape }}">
+      <a class="video-cover" href="{{ site.featured_video.url }}" aria-label="{{ t.watch }} : {{ site.featured_video.title | escape }}">
+        <span class="video-channel">{{ site.featured_video.channel }} · TOP VERT</span>
+        <span class="video-play" aria-hidden="true"><svg width="26" height="30" viewBox="0 0 26 30" fill="currentColor"><path d="M3 2 24 15 3 28Z"/></svg></span>
+        <span class="video-cover-label">{{ t.play }}</span>
+      </a>
+    </div>
+    <figcaption lang="fr">{{ site.featured_video.title }}</figcaption>
+  </figure>
+</section>
 
 <section class="section container network-section" aria-labelledby="network-title"><div><p class="eyebrow">{{ t.network_label }}</p><h2 id="network-title">{{ t.network_title }}</h2></div><div class="network-list">{% for network in t.networks %}<a href="{{ network.url }}"><div><h3>{{ network.name }}</h3><p>{{ network.text }}</p></div><span aria-hidden="true">↗</span></a>{% endfor %}</div></section>
 
-<section id="contact" class="contact-section" aria-labelledby="contact-title"><div class="container contact-grid"><div><p class="eyebrow">05 / {{ t.contact_label }}</p><h2 id="contact-title">{{ t.contact_title }}</h2><p>{{ t.contact_text }}</p></div><div class="contact-details"><span class="contact-kicker">{{ t.email_label }}</span><a class="email-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a><div class="contact-address"><strong>{{ t.institution }}</strong><span>{{ t.department }}</span><span>{{ t.location }}</span></div></div></div></section>
+<section id="contact" class="contact-section" aria-labelledby="contact-title"><div class="container contact-grid"><div><p class="eyebrow">06 / {{ t.contact_label }}</p><h2 id="contact-title">{{ t.contact_title }}</h2><p>{{ t.contact_text }}</p></div><div class="contact-details"><span class="contact-kicker">{{ t.email_label }}</span><a class="email-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a><a class="text-link linkedin-link" href="{{ site.linkedin }}">{{ t.connect }} <span aria-hidden="true">↗</span></a><div class="contact-address"><strong>{{ t.institution }}</strong><span>{{ t.faculty }}</span><span>{{ t.location }}</span></div></div></div></section>
