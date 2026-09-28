@@ -1,0 +1,23 @@
+title: Patience NGELINKOTO MPIA
+description: Professeure ordinaire en chimie et environnement. Recherche en écotoxicologie, qualité des eaux et écosystèmes du bassin du Congo.
+url: https://ngelinkoto.github.io
+baseurl: ""
+lang: fr
+email: ngelipatience@gmail.com
+markdown: kramdown
+permalink: pretty
+timezone: Africa/Kinshasa
+plugins:
+  - jekyll-sitemap
+exclude:
+  - resources
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+  - node_modules
+  - package.json
+  - package-lock.json
+  - docs
+  - .bundle
