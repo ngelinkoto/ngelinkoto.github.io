@@ -1,5 +1,5 @@
 title: Patience NGELINKOTO MPIA
-description: Doyenne de la Faculté des Sciences et Technologies de l’UPN, professeure ordinaire en chimie et environnement. Recherche en écotoxicologie et qualité des eaux.
+description: Doyenne de la Faculté des Sciences et Technologies de l’UPN et directrice générale du CREE. Professeure ordinaire en chimie et environnement.
 url: https://ngelinkoto.github.io
 baseurl: ""
 lang: fr
@@ -10,6 +10,8 @@ featured_video:
   url: https://www.youtube.com/watch?v=fSDHNtbVYeA
   title: "TOP VERT : La valorisation des déchets biodégradables en biogaz"
   channel: Top Congo
+featured_bulletin:
+  url: https://csnrdc.net/wp-content/uploads/2024/08/BULLETIN-15E-EDITIONANG1.pdf#page=14
 markdown: kramdown
 permalink: pretty
 timezone: Africa/Kinshasa
